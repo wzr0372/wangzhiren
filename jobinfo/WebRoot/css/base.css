@@ -1,0 +1,339 @@
+a:focus{ border:0; outline:none;}
+.wrap{ width:960px; margin:0 auto; overflow:hidden;} 
+
+
+/*头部*/
+.header{ height:90px; background:url(../image/bg2.png) repeat-x;}
+.logo{ width:960px; height:90px; background:url(../image/logo.png) no-repeat;}
+.logo .logo-link{ font-size:12px; float:right; margin-top:10px; }
+.logo .logo-link a{ color:#980000; margin-right:20px; text-decoration:none; vertical-align:middle; font-family:Microsoft Yahei;}
+
+.navbar{ background:#133984;  border-radius:5px; margin:0; border:0; height:32px; min-height:32px; line-height:30px; font-size:12px; color:#fff; font-family:Microsoft Yahei;}
+.navbar .nav li{ float:left; color:#fff;}
+.navbar .nav li a{ padding:0 15px; color:#fff; vertical-align:middle; display:inline-block;}
+.navbar .nav li a:hover{ background:#133984; border-radius:5px;}
+
+/*contain*/
+.contain{ padding-top:15px;}
+.sidebar{ float:left; width:200px;}
+.mainbar{ width:750px; margin-left:10px; float:left;}
+
+.plate{ border:1px solid #d8d6d7; background:#f7f7f7; padding-bottom:20px;}
+.plate .plate-title h2{ font-size:14px; margin:0; padding:0; background:url(../image/dh_myhc.png) no-repeat; height:24px; line-height:24px; color:#fff; font-weight:bold; padding-left:55px; border:1px solid #fff;}
+
+.plate .plate-list{ margin-top:20px; padding:0 10px;}
+.plate .plate-list li{ height:40px; line-height:40px; border-bottom:1px dotted #2d5095; list-style:none; background:url(../image/icon4.png) no-repeat 20px 15px; padding-left:50px;}
+.plate .plate-list li a{ font-weight:bold; color:#37498a;}
+
+/*----------通知公告----------*/
+.notice{border:1px solid #d8d6d7; background:#f7f7f7; padding-bottom:20px; margin-top:10px; padding-left:10px; padding-right:10px;}
+.notice .notice-title h2{ margin:0; padding:0; font-weight:bold; color:#37498a; height:38px; font-size:14px; line-height:38px; text-align:center; border-bottom:1px dotted #2d5095;}
+.notice .notice-list{ list-style:disc outside; padding:0 0 0 15px; color:#2d5095;}
+.notice .notice-list li{ line-height:18px; margin:10px 0; padding:0;}
+.notice .notice-list li a{  display:inline; font-size:12px; color:#333; font-family:SimSun;}
+.notice .notice-list li a:hover{ color:#ea2323;}
+.notice .notice-list .time{ font-style:normal; color:#999; font-size:12px; line-height:18px; display:block; text-align:right; font-family:SimSun; }
+
+
+
+/*岗位需求*/
+
+.requirement .requirement-list{ list-style:none; width:700px; margin:10px auto; overflow:hidden; font-family:SimSun; }
+.requirement .requirement-list li{ float:left; margin-right:10px;}
+.requirement .requirement-list .select{ width:110px; height:24px; line-height:24px; font-size:12px; padding-left:10px; border:1px solid #e6e6e6;}
+.requirement .requirement-list .input-text{ width:110px; height:24px; line-height:16px; padding-left:10px; border:1px solid #e6e6e6;}
+.requirement-info .panel-group .panel-default{ border:1px solid #e6e6e6; background:#fff; padding:5px 20px 5px 60px;}
+.requirement-info .panel-group .panel-default>.panel-heading{ background:#fff; padding:0; margin:0;}
+.requirement-info .panel-group .panel-heading+.panel-collapse>.panel-body{ border-top:0;}
+.requirement-info .panel-group .panel-heading h3{ padding:0; margin:0; font-size:14px; font-weight:bold; color:#37498a;}
+.requirement-info .panel-group .panel-heading  span{ width:280px; display:inline-block; line-height:24px; font-family:Microsoft Yahei;}
+.requirement-info .panel-group .panel-heading  span em{font-family:SimSun; font-style:normal;}
+.requirement-info .panel-group .panel-heading  p{ margin:0;}
+.requirement-info .panel-group .panel-heading .btn-toggle{ background:url(../image/icon6.png) no-repeat; width:57px; height:24px; display:inline-block; border:0;}
+.requirement-info .panel-group .panel-heading .btn-show{ background:url(../image/icon7.png) no-repeat; width:57px; height:24px; display:inline-block; border:0;}
+
+/*隐藏内容*/
+.requirement-info .panel-group .panel-body{ padding:10px 0 0 0;}
+.requirement-info .panel-group .panel-body span{width:280px; display:inline-block; line-height:26px;}
+.requirement-info .panel-group .panel-body span em{ font-family:SimSun; font-style:normal;}
+.requirement-info .panel-group .panel-body .eligible-list{ list-style:none; padding-left:0; line-height:26px; font-family:SimSun; font-style:normal;}
+.requirement-info .panel-group .panel-body .eligible-list p{ padding:0; margin:0; text-indent:5em;}
+.requirement-info .panel-group .panel-body .btn-group{ margin-left:230px; margin-bottom:20px;}
+.requirement-info .panel-group .panel-body .btn-group .apply-btn{ background:url(../image/bg-btn.png) no-repeat; color:#fff; width:86px; height:33px; line-height:33px; text-align:center; border:0;}
+
+.step { text-align:center; padding:30px;}
+.step .progress {height: 30px;  margin-bottom: 0px;  background:#fff; border:0;  border-radius: 0px;  overflow: hidden;   -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.1);
+  box-shadow: inset 0 0px 0px rgba(0,0,0,.1);}
+.nav>li>a:focus, .nav>li>a:hover{background: #133984; }
+.step .btn-link{ margin-left:30px; padding:0 10px; color:#37498a; text-decoration:none;}
+.step .btn-up{ margin-left:30px; padding:0 20px; color:#37498a; text-decoration:none;}
+
+
+
+/*----------登陆----------*/
+.login{ border:1px solid #e6e6e6; padding:0 90px 20px 90px;}
+.login .verification h3{ margin:0; padding:0; font-family:SimSun; font-size:14px;  height:50px; line-height:50px; color:#37498a; text-align:center; font-weight:bold; border-bottom:1px dashed #e6e6e6;}
+.login .verificationinfo{ padding:20px 100px;}
+.login .verificationinfo span{ text-align:right; display:inline-block; width:70px;}
+.login  .verificationinfo .sum-text{border:1px solid #e6e6e6; height:24px; line-height:18px; padding-left:10px; width:140px;}
+.login  .verificationinfo .input-text{border:1px solid #e6e6e6; height:24px; line-height:18px; padding-left:10px; width:210px;}
+.step .btn-login{ display:inline-block; width:154px; height:36px; background:url(../image/btn.png) no-repeat; line-height:36px; margin-top:30px; text-align:center; border-radius:0; color:#fff; text-decoration:none; margin:30px 20px;}
+.step .btn-next{ display:inline-block; width:154px; height:36px; background:url(../image/btn1.png) no-repeat; line-height:36px; margin-top:30px; text-align:center; border-radius:0; color:#fff; text-decoration:none; margin:30px 20px;}
+
+/*前台基本资料*/
+.education .basic-data{ border:1px solid #e6e6e6; padding:0 10px 10px 10px; }
+.education .basic-data .table{ margin-bottom:0;}
+.education .basic-data th{ border-top:0;}
+.education .btn-group{ display:block; overflow:hidden; margin-bottom:10px;}
+.education .btn-group .btn,.education .btn-group .btn-default{ float:right;}
+.education .extend{ border:1px solid #e6e6e6; padding:20px 40px 10px 40px; margin-bottom:20px; display:none;}
+.education .extend .save{ background:#37498a; color:#fff; font-size:12px;  height:24px; line-height:24px; border-radius:0; border:0; padding:0 20px; margin-top:10px; margin-left:75px;}
+.education .extend .input-text{ width:253px; height:21px; line-height:18px; padding-left:10px; border:1px solid #e6e6e6;}
+.education .extend .sum-text{ width:102px; height:21px; line-height:18px; padding-left:10px; border:1px solid #e6e6e6;}
+.education .extend .text125{ width:125px; height:21px; line-height:18px; padding-left:10px; border:1px solid #e6e6e6;}
+.education .extend span{ display:inline-block; width:330px;}
+.education .extend span em{ font-style:normal; display:inline-block; width:70px; text-align:right;}
+
+.other{ border:1px solid #e6e6e6; padding:15px 30px 10px 70px; font-family:SimSun;}
+.basic-title{margin:0; padding:0 10px; font-size:14px; font-family:SimSun; height:50px; line-height:50px; color:#37498a;  font-weight:bold; border-bottom:1px dashed #e6e6e6;}
+.point{display:inline-block; font-size:12px; font-style:normal; color:#f82020; font-weight:bold; font-family:SimSun; margin-left:5px; }
+.other .otherinfo span{ display:inline-block; text-align:right; width:120px; margin-right:10px; vertical-align:top;}
+.other .otherinfo p{ margin-bottom:0; line-height:18px; padding:10px 0;}
+.other .otherinfo label{ display:inline-block; vertical-align:middle; margin-right:5px; margin-left:20px;}
+.other .otherinfo .input-text{ width:130px; height:21px; border:1px solid #e6e6e6; padding-left:5px;}
+.other .otherinfo .area{ width:270px; height:65px; border:1px solid #e6e6e6;}
+
+.basic-fill{border:1px solid #e6e6e6; padding:15px 30px 10px 60px; font-family:SimSun;}
+.apply-info .apply-list{ text-align:center; margin-top:10px; margin-bottom:10px;}
+.apply-info .apply-list .input-text{ width:125px; height:21px; padding-left:10px; border:1px solid #e6e6e6; margin-right:20px;}
+
+.basic-list{ list-style:none; margin-top:20px; float:left; padding-left:0;}
+.basic-list li{ line-height:35px;float: left;}
+.basic-list li span{ margin-right:10px; display:inline-block; text-align:right;}
+.basic-list li .input-text{ height:24px; line-height:18px; padding-left:10px; width:125px; border:1px solid #e6e6e6; }
+.basic-list li .select{height:24px; line-height:18px; width:70px; border:1px solid #e6e6e6;}
+.basic-list li .sum-text{height:24px; line-height:18px; width:70px; border:1px solid #e6e6e6;}
+.basic-list li label{ display:inline-block; vertical-align:middle; margin-right:5px; margin-left:20px;}
+
+
+
+.person{ float:left; /*padding:35px 10px;*/ text-align:center; /*margin-left:60px;*/}
+.person .person-img{ text-align:center;}
+.person a{ display:block;  font-weight:bold; font-size:14px; line-height:24px;}
+.person p{ color:#999;}
+
+/*报名表*/
+
+/*求职反馈*/
+.feedbackinfo{ margin-top:30px;}
+.feedbackinfo .table{ text-align:center;}
+.feedbackinfo .table th{ text-align:center;}
+
+/*通知公告信息*/
+.article .notice-title{ text-align:center; font-family:Microsoft Yahei;}
+.article .notice-title h3{ margin:0; padding:0; font-size:24px; line-height:40px;}
+.article .article-text{ padding:10px 50px; font-family:Microsoft Yahei;}
+.article .article-text p{ text-indent:2em; line-height:24px; font-size:12px;}
+.article .article-text h4{margin:0; padding:0; font-size:14px; line-height:30px; font-weight:bold;}
+
+/*新曾公告*/
+.popup-bg{ position:fixed; top:0; left:0; bottom:0; right:0; background:rgba(0,0,0,0.1); z-index:888; display:none;}
+.add-notice{ display:none; display:none; position:fixed; z-index:999; left:50%; top:50%; margin-top:-150px; margin-left:-250px;  background:#fff;}
+.add-notice .table{ width:500px; height:260px; border:1px solid #ccc; }
+.master-modle .add-notice  .table>tbody>tr>th{ text-align:right;}
+.master-modle .add-notice  .table .text150{ width:350px; border:1px solid #e6e6e6; height:24px; padding-left:10px;}
+.master-modle .add-notice  .table .area{ width:350px; border:1px solid #e6e6e6; height:100px;}
+
+
+/*2015-6-1 09:25:57 新曾公告修改*/
+
+
+
+
+/*----------footer----------*/
+.footer{ background:#ececec; padding-bottom:10px; margin-top:20px;}
+.footer-link{ background:#133984; height:24px;}
+.footer-list{ margin-left:200px;}
+.footer-list li{ float:left; list-style:none; color:#fff; margin-right:30px; line-height:24px; font-family:SimSun;}
+.footer-list li a{ color:#fff; font-family:SimSun; font-size:12px; text-decoration:none;}
+.footerinfo p{ font-size:12px; text-align:center; margin:0; line-height:24px; color:#585858;}
+.footerinfo{ padding-top:10px;}
+
+.focus.active.btn, .active.btn:focus, .focus.btn, .focus.btn:active, .btn:focus:active, .btn:focus{ outline:none;}
+
+/*----------后台管理----------*/
+/*头部*/
+.admin-top{ background:url(../image/bg1.png) repeat-x; line-height:60px; height:60px; color:#fff;}
+.admin-top h3{ line-height:60px; padding:0; margin:0; padding:0 50px;}
+.admin-top h3 small{ color:#fff; margin-left:22px; font-size:14px;}
+.admin-top .user{ font-size:14px; color:#fff; text-decoration:none;}
+.admin-top .out{ font-size:14px; color:#fff; text-decoration:none;}
+
+.admin-login{ padding:20px 20px 20px 0; float:left; border:1px solid #e6e6e6; margin-top:30px; margin-left:50px;}
+.admin-login p{ line-height:24px; margin:20px; padding:0; vertical-align:middle;}
+.admin-login p span{ width:70px; text-align:right; display:inline-block;}
+.admin-login .input-text{border:1px solid #e6e6e6; height:24px; line-height:18px; width:150px;  padding-left:10px;}
+.admin-login .login-btn{ width:154px; height:36px; color:#fff; background:url(../image/btn.png) no-repeat; text-align:center; border-radius:0;  margin-left:70px;}
+
+.admin-manage{ padding:100px 0;}
+.admin-manage img{ float:left;}
+
+/*侧边导航*/
+.menu_list{ background:#1585cd; min-height:1300px;}
+.menu_head{cursor:pointer; position:relative; font-size:16px; height:45px; line-height:45px;  font-family:Microsoft Yahei; margin-bottom:0;}
+.menu_head  a{ color:#fff; display:block; height:45px; text-decoration:none; padding-left:60px;}
+.menu_head span{ display:inline-block; width:120px;}
+.menu_head em{ display: inline-block; width:6px; height:11px; background:url(../image/icon1.png) no-repeat -6px 0; margin-left:40px;}
+.current em{ display: inline-block; width:6px; height:11px; background:url(../image/icon1.png) no-repeat; margin-left:40px;}
+.menu_list .current a{ background:#fff; color:#333;}
+.menu_body{display:none;}
+.current > .menu_body{display:block;}
+
+.menu_body a{display:block;  background:#ececee; font-size:14px; height:45px; line-height:45px; font-family:Microsoft Yahei; border-bottom:1px solid #FFF; padding-left:60px; }
+.menu_body a:hover{ color:#006699; }
+.conent{ width:100%;}
+.side{ width:260px;}
+.main{ margin-left:30px; width:78%;}
+.title{ border-bottom:1px solid #e6e6e6; height:45px;}
+.title h5{ line-height:45px; padding:0; margin:0; font-weight:bold;}
+
+/*搜索列表*/
+.search-list{ list-style:none; padding:15px 0; margin:0; font-family:Microsoft Yahei; max-width:1100px;}
+.search-list li{float:left; height:35px; margin-right:20px;}
+.search-list li span{ display:inline-block;}
+.search-list .input-text{border:1px solid #e6e6e6; height:22px; width:143px; line-height:16px;  padding-left:7px;}
+.search-list .select{ border:1px solid #e6e6e6; height:22px; width:100px; padding-left:7px;}
+.search-list .sum-text{border:1px solid #e6e6e6; height:22px; width:121px; padding-left:7px; background:url(../image/icon9.png) no-repeat 100px center;}
+.search-list .btn-search{ width:73px; height:24px; background:url(../image/icon2.png) no-repeat; border:0;}
+
+
+/*employment 招聘信息*/
+.employment{ border-top:1px solid #e6e6e6;}
+.btn-group{ margin-top:15px;}
+.btn-group .btn{ margin:0 10px; background:#1585cd; color:#fff; font-size:12px; height:24px; line-height:24px; border-radius:0;  border:0; padding:0 20px;} 
+.btn-group .btn-default{ background:#37498a; margin:0 10px; color:#fff; font-size:12px; height:24px; line-height:24px; border-radius:0;  border:0; padding:0 20px;}
+.btn-group .btn-return{ margin:0 10px; background:#e6e6e6; color:#37498a; font-size:12px; height:24px; line-height:24px; border-radius:0;  border:0; padding:0 20px;} 
+/*多选框*/
+.checkbox, .radio{ margin:0; font-weight:bold;}
+.checkbox label, .radio label{font-weight:bold;}
+.employmentinfo .table tbody tr{}
+.employmentinfo .table>thead>tr>th{ border:0; text-align:center; }
+.employmentinfo .table>thead>tr>th span{border-right:1px solid #CCC; display:block;}
+.employmentinfo{ margin-top:20px;}
+.employmentinfo .table-hover>tbody>tr:hover { background-color: #ededed }
+.employmentinfo .table>tbody>tr>td{ vertical-align:middle; text-align:center;}
+.employmentinfo .table{ border-bottom:1px solid #ddd; font-size:12px;}
+.employmentinfo .checkbox{ text-align:left; padding-left:20px; }
+.employmentinfo .btn-link{ color:#333; font-size:12px;}
+.employmentinfo .btn-link.disabled{ color:#999	;}
+.employmentinfo .save{ color:#1fbd4f; font-weight:bold;}
+.employmentinfo .release{color:#37498a; font-weight:bold;}
+.employmentinfo .failure{color:#f64040; font-weight:bold;}
+
+/*分页*/
+.pagingbar{ height:23px; line-height:23px; color:#666; font-family:Microsoft Yahei; font-size:12px; display:inline-block; }
+.pagingbar cite{ display:inline-block; float:left; margin-right:6px;}
+.pagingbar a,.pagingbar .bora span{ color:#666; background:#fff; border:1px solid #cccccc; height:22px; line-height:22px; padding:0 6px; display:inline-block; float:left; margin-right:3px; font-style:normal; text-decoration:none;}
+.pagingbar a:hover,.pagingbar a.selected{ background:#1585cd; color:#fff !important; border:1px solid #1585cd; cursor:pointer;}
+.pagingbar .bora span{ border:1px solid #cccccc; color:#666666; background:#eeeeee;}
+.pagingbar em{ color:#333;}
+.pagingbar abbr{ display:inline-block; margin:0 6px;}
+
+
+/*--------------------------前台分页-----------------------------------*/
+/*分页*/
+.pagingbar1{ height:23px; line-height:23px; color:#666; font-family:Microsoft Yahei; font-size:12px; display:inline-block; }
+.pagingbar1 cite{ display:inline-block; float:left; margin-right:6px;}
+.pagingbar1 a,.pagingbar1 .bora span{ color:#666; background:#fff; border:1px solid #cccccc; height:22px; line-height:22px; padding:0 6px; display:inline-block; float:left; margin-right:3px; font-style:normal; text-decoration:none;}
+.pagingbar1 a:hover,.pagingbar1 a.selected{ background:#133984; color:#fff !important; border:1px solid #133984; cursor:pointer;}
+.pagingbar1 .bora span{ border:1px solid #cccccc; color:#666666; background:#eeeeee;}
+.pagingbar1 em{ color:#333;}
+.pagingbar1 abbr{ display:inline-block; margin:0 6px;}
+
+
+/*-----------------------新增招聘信息-----------------------*/
+
+.add-info{ padding:30px;}
+
+.add-info .add-form{ font-size:12px;}
+.add-info .add-form tr{ height:45px;}
+.add-info .add-form th{ text-align:right;}
+.add-info .add-form em{ color:#f64040; display:inline-block; margin-left:10px; font-style:normal; margin-right:20px; vertical-align:middle;}
+.add-info .add-form .input-text{ border:1px solid #e6e6e6; padding-left:10px; height:24px; line-height:16px; width:150px;}
+.add-info .add-form .select{  border:1px solid #e6e6e6; width:150px; height:24px;}
+.add-info .add-form  .btn{margin:0 10px; background:#1585cd; color:#fff; font-size:12px; border:0; padding:0 20px; height:24px; line-height:24px; border-radius:0;}
+.add-info .add-form .area{ width:460px; height:130px; text-align:left !important; font-size:12px;  border:1px solid #e6e6e6;}
+
+/*----------模板管理 ----------*/
+.manage-modle{ padding-right:20px;}
+.manage-modle .table{ margin-top:20px; border-bottom:1px solid #ddd;}
+.table>thead>tr>th{border-bottom:1px solid #ddd;}
+/*----------硕士模板管理 ----------*/
+.master-modle{ padding-right:20px; font-size:12px; overflow-x:auto;}
+.master-modle .table{ margin-top:20px;  text-align:center;  border-bottom:1px solid #ddd;}
+
+
+.master-modle .table>tbody>tr>td{ vertical-align:middle;}
+
+/*----------报名表预览 ----------*/
+.regist-form{ padding-bottom:20px;}
+.regist-form .regist-title{ text-align:center; font-family:Microsoft Yahei;}
+.regist-form .regist-title h3{ text-align:center; font-weight:500;}
+.regist-form .regist-title p{ line-height:24px; padding-top:10px;}
+.regist-form .regist-title p input{ height:24px; margin-right:20px; padding-left:10px; border:1px solid #e6e6e6;}
+.regist-form .btn-group{ display:block;}
+.regist-form .btn-group .btn{ float:none;}
+
+.basic{border:1px solid #ddd; overflow:hidden; border-bottom:0;}
+.basic h4{ background:#ddd; height:40px; padding:0; margin:0; line-height:40px; text-align:center;}
+.basic-info{ float:left; width:930px; }
+.basic-info{ list-style:none; padding:15px; margin:0; font-family:Microsoft Yahei;}
+.basic-info li{float:left; height:45px; width:235px;}
+.basic-info li span{ display:inline-block; width:70px;}
+.basic-info .input-text{border:1px solid #e6e6e6; height:24px; width:160px; padding-left:5px; line-height:16px;}
+.basic-info .lg{ width:580px;}
+.basic-info .lg .lg-span{ width:110px;}
+.basic-info .lg-text{border:1px solid #e6e6e6; height:22px; width:330px; padding-left:7px; line-height:16px;}
+.basic-info .select{ border:1px solid #e6e6e6; height:22px; width:100px; padding-left:7px;}
+
+.personal-photos{ float:left; width:140px; margin-top:15px;}
+.personal-photos img{max-width:100%;}
+
+/**/
+.master-modle .work-experience .experience-title{ font-size:18px; font-weight:500;  height:40px; padding:0; margin:0; line-height:40px; text-align:center; vertical-align:middle; background:#ddd;}
+.master-modle .work-experience{ margin-top:0; border-top:0;}
+.master-modle .work-experience th{ border:1px solid #e6e6e6;}
+.master-modle .work-experience td{ border:1px solid #e6e6e6;}
+.master-modle .table>thead>tr>th { border-bottom:0;}
+.master-modle .table>thead>tr>th{text-align:center; font-weight:500; }
+.master-modle .table>thead>tr>th span{border-right:1px solid #CCC; display:block;}
+.master-modle .table>tbody>tr>th{text-align:center; font-weight:500; }
+.master-modle .table>tbody>tr>td{text-align:center; font-weight:500;}
+.master-modle .table>tbody>tr>th{text-align:center; vertical-align:middle;}
+.master-modle .work-experience p{ padding:20px 20px 0 20px;}
+
+
+
+/***状态***/
+.unread{ color:#333; font-weight:bold;}
+.read{color:#333;}
+.qualified{color:#1fbd4f;}
+.unqualified{color:#f64040;}
+.enter{color:#1585cd;}
+
+/*检索 2015年6月5日13:44:38*/
+.requirement .requirement-list li .btn-group{ margin-top:0; color:#fff; }
+.requirement .requirement-list li .btn-group .btn-default{ margin-top:0; color:#fff; }
+
+.list{ padding:20px 30px;}
+.list .list-30{ padding:6px 15px;}
+.list .list-30 li{height:30px; line-height:30px;}
+.list .list-30 li a{ display:block; height:30px; line-height:30px; color:#666; border-bottom:1px dashed #ccc; background:url(images/li-icon.png) no-repeat 0 12px; padding-left:12px; }
+.list .time{ font-size:12px; color:#666; float:right; padding-right:6px; display:inline-block;}
+
+.clear{clear:both;}
+
+.span2w{width:60px;}
+.span4w{width:120px;}
+.span6w{width:180px;}
+.span8w{width:24px;}
